@@ -1,0 +1,75 @@
+.fadein {
+    position:relative;
+    top:8px;
+    left:0%;
+    margin:auto;
+}
+.fadein img {
+    position:absolute;
+    left:-65px;
+    top:0;
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+    33% {opacity: 1;}
+    53% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+#Fade1 {
+    background-color: lightblue;
+}
+#Fade2 {
+    -webkit-animation-delay: -4s;
+    background-color: yellow;
+}
+#Fade3 {
+    -webkit-animation-delay: -2s;
+    background-color: lightgreen;
+}
+
+
+
+
+	.NavBar ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden;
+	  background-color: #255;
+	}
+
+	.NavBar li {
+	  float: left;
+	}
+
+	.NavBar li a {
+	  display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	.NavBar li a:hover {
+	  background-color: #111;
+	}
+
+  .body {
+    font-family: "Times New Roman", Times, serif;
+  }
