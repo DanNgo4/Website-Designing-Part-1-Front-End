@@ -53,4 +53,10 @@ footer {
 
 img{
   display:block;
- }
+}
+
+table{
+  
+  border-spacing: 30px;
+  
+}
