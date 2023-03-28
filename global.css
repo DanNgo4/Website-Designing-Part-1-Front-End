@@ -69,4 +69,12 @@
   table{
     border-spacing: 30px;
   }
+
+.follow {position: relative; bottom: -20px; text-align: right;}
+
+.follow a img {-webkit-transform: scale(1); transform: scale(1);
+    -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}
+
+.follow a:hover img {-webkit-transform: scale(1.3); transform: scale(1.3);}
+
   
