@@ -18,7 +18,6 @@
     text-decoration: none;
   }
   
-  
   .NavgationBar li a:hover {
     background-color: #898F9C;
   }
@@ -62,19 +61,23 @@
   #footernavigation {
     word-spacing: 50px;
   }
-  img{
-    display:block;
-  }
-  
-  table{
+
+  table {
     border-spacing: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-.follow {position: relative; bottom: -20px; text-align: right;}
+  table a { 
+    text-decoration: none;
+    color: black;
+  }
 
-.follow a img {-webkit-transform: scale(1); transform: scale(1);
-    -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}
+.follow {bottom: -20px; text-align: right;}
+.follow a {color: none}
 
-.follow a:hover img {-webkit-transform: scale(1.3); transform: scale(1.3);}
-
-  
+#profilephoto {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 250px;
+}
