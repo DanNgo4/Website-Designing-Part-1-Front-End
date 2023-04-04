@@ -9,6 +9,10 @@
   .NavgationBar li {
     float: left;
   }
+
+  .NavgationBar img {
+    display: block;
+  }
   
   .NavgationBar li a {
     display: block;
@@ -44,6 +48,11 @@
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  footer img {
+    height: 30px;
+    width: 30px;
+  }
   
   footer a{
     color: white;
@@ -73,11 +82,45 @@
     color: black;
   }
 
-.follow {bottom: -20px; text-align: right;}
-.follow a {color: none}
+.follow {
+  bottom: -20px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.follow a {
+  color: none;
+  text-decoration: none;
+}
 
 #profilephoto {
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 250px;
+}
+
+#IndexBanner {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  display: block;
+}
+
+#HiringBanner {
+  width: 100%;
+}
+
+#HiringBanner td {
+  width: 100%;
+  background-color: orangered;
+  color: white;
+  padding: 2%;
+}
+
+#HiringBanner h2, p{
+  margin: 0;
+}
+
+#HiringBanner a{
+  text-decoration: underline;
+  color: white;
 }
