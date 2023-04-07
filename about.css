@@ -1,3 +1,4 @@
+/* last modified by Dan 07/04/23*/
 * {
     font-family: calabri, sans-serif
 }
@@ -5,20 +6,88 @@
 .container {
     position: relative; 
     color: black;
+    margin: 0 auto;
 }
 
-#left-side {
+.container img {vertical-align: middle;}
+
+.content {
     position: absolute; 
-    bottom: 50%;      
-    left: 10%;
+    bottom: 70%;      
+    right: 10%;
 }
 
-#article1 {
+.container .content {
+    background: rgb(0, 0, 0); 
+    background: rgba(105, 195, 223, 0.8); 
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.article {
     margin: 0; 
-    padding: 200px; 
-    background-color: rgb(157, 204, 206); 
+    padding: 45px; 
+    background-color: rgb(83, 160, 231); 
     text-align: center;
 }
+
+section {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: large;
+}
+
+.group h1 {
+    text-align: center;
+}
+
+.group figure {
+    text-align: center;
+}
+
+dl {
+    border: 15px solid #548ecf;
+  }
+
+dt {
+    text-align: center;
+}
+
+dd {
+    text-align: center;
+    margin-right: 4%;
+    text-decoration: none;
+}
+
+.id {
+    text-align: center;
+}
+
+table.about, th, td {
+    border: 1px solid black;
+    border-spacing: 1px;
+}
+
+.time {
+    background-color: #9ce5f7;
+}
+
+.day {
+    background-color: rgb(247, 193, 93);
+}
+
+#contact{
+    text-align: center;
+    margin-right: 1%;
+}
+
+.container2 {
+    text-align: center; 
+    position: relative; 
+    color: black;
+} 
 
 .button {
     border: none; 
@@ -31,24 +100,19 @@
     margin: 4px 2px;
     transition-duration: 0.8s; 
     cursor: pointer;
+    font-weight: bold;
 }
 
 .button1 {
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 4px solid #467fc0;
 }
 
 .button1:hover {
-    background-color: #4CAF50; 
+    background-color: #467fc0; 
     color: white;
-}
-
-.container2 {
-    text-align: center; 
-    position: relative; 
-    color: black;
-}   
+}  
 
 #coo {height: 20%; 
     width: 20%; 
@@ -58,9 +122,15 @@
 }
 
 .follow {
-    position: relative; 
-    bottom: -20px; 
+    bottom: -20px;
     text-align: right;
-}
+    text-decoration: none;
+  }
+  
+.follow a {
+    text-decoration: none;
+  }
+
+
 
 
