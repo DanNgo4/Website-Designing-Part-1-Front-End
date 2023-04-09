@@ -75,36 +75,13 @@
   #footernavigation {
     word-spacing: 50px;
   }
-<<<<<<< HEAD
   
   table{
-=======
-
-  table {
->>>>>>> 992d88746c19780f6bbf942ab627bf8f06d49a5c
     border-spacing: 30px;
     margin-left: auto;
     margin-right: auto;
   }
 
-<<<<<<< HEAD
-=======
-  table a { 
-    text-decoration: none;
-    color: black;
-  }
-
-.follow {
-  bottom: -20px;
-  text-align: right;
-  text-decoration: none;
-}
-
-.follow a {
-  color: none;
-  text-decoration: none;
-}
->>>>>>> 992d88746c19780f6bbf942ab627bf8f06d49a5c
 
 #profilephoto {
   border-radius: 8px;
