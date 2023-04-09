@@ -1,116 +1,72 @@
 .NavgationBar ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-    background-color: #4267B2;
-
-  }
-  
-  .NavgationBar li {
-    float: left;
-  }
-
-  .NavgationBar img {
-    display: block;
-  }
-  
-  .NavgationBar li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .NavgationBar li a:hover {
-    background-color: #898F9C;
-  }
-  
-  .BodyContent {
-    background-color: #D3D3D3;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 5%;
-    padding-bottom: 1%;
-    padding-right: 5%;
-  }
-  
-  body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  footer {
-    text-align: left;
-    padding: 1%;
-    background-color: #4267B2;
-    color: white;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-  footer img {
-    height: 30px;
-    width: 30px;
-  }
-  
-  footer img {
-    height: 30px;
-    width: 30px;
-  }
-
-  footer a{
-    color: white;
-  }
-  
-  footer a:hover{
-    color: #898F9C;
-  }
-  
-  #footerlinks {
-    font-size: 80%;
-    text-decoration: none;
-  }
-  
-  #footernavigation {
-    word-spacing: 50px;
-  }
-  
-  table{
-    border-spacing: 30px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-
-#profilephoto {
-  border-radius: 8px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 250px;
-}
-
-#IndexBanner {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width: 100%;
-  display: block;
-}
-
-#HiringBanner {
-  width: 100%;
-}
-
-#HiringBanner td {
-  width: 100%;
-  background-color: orangered;
-  color: white;
-  padding: 2%;
-}
-
-#HiringBanner h2, p{
+  list-style-type: none;
   margin: 0;
+  overflow: hidden;
+  background-color: #4267B2;
+
 }
 
-#HiringBanner a{
-  text-decoration: underline;
+.NavgationBar li {
+  float: left;
+}
+
+.NavgationBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.NavgationBar li a:hover {
+  background-color: #898F9C;
+}
+
+.BodyContent {
+  background-color: #D3D3D3;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  padding-right: 5%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  text-align: left;
+  padding: 1%;
+  background-color: #4267B2;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+footer a{
   color: white;
 }
+
+footer a:hover{
+  color: #898F9C;
+}
+
+#footerlinks {
+  font-size: 80%;
+  text-decoration: none;
+}
+
+#footernavigation {
+  word-spacing: 50px;
+}
+
+table {
+  border-spacing: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
