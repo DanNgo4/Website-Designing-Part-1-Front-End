@@ -1,0 +1,136 @@
+/* last modified by Dan 07/04/23*/
+* {
+    font-family: calabri, sans-serif
+}
+
+.container {
+    position: relative; 
+    color: black;
+    margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.content {
+    position: absolute; 
+    bottom: 70%;      
+    right: 10%;
+}
+
+.container .content {
+    background: rgb(0, 0, 0); 
+    background: rgba(105, 195, 223, 0.8); 
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.article {
+    margin: 0; 
+    padding: 45px; 
+    background-color: rgb(83, 160, 231); 
+    text-align: center;
+}
+
+section {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: large;
+}
+
+.group h1 {
+    text-align: center;
+}
+
+.group figure {
+    text-align: center;
+}
+
+dl {
+    border: 15px solid #548ecf;
+  }
+
+dt {
+    text-align: center;
+}
+
+dd {
+    text-align: center;
+    margin-right: 4%;
+    text-decoration: none;
+}
+
+.id {
+    text-align: center;
+}
+
+table.about, th, td {
+    border: 1px solid black;
+    border-spacing: 1px;
+}
+
+.time {
+    background-color: #9ce5f7;
+}
+
+.day {
+    background-color: rgb(247, 193, 93);
+}
+
+#contact{
+    text-align: center;
+    margin-right: 1%;
+}
+
+.container2 {
+    text-align: center; 
+    position: relative; 
+    color: black;
+} 
+
+.button {
+    border: none; 
+    color: white; 
+    padding: 16px 32px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 4px 2px;
+    transition-duration: 0.8s; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 4px solid #467fc0;
+}
+
+.button1:hover {
+    background-color: #467fc0; 
+    color: white;
+}  
+
+#coo {height: 20%; 
+    width: 20%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.follow {
+    bottom: -20px;
+    text-align: right;
+    text-decoration: none;
+  }
+  
+.follow a {
+    text-decoration: none;
+  }
+
+
+
+
