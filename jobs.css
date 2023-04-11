@@ -1,0 +1,54 @@
+.jobcontent h1 {text-align: center;
+    font-size: 45px;
+    }
+  .jobcontent h2 { text-align: center;
+    background-color: #488AC7;
+    color: white;
+    font-size: 30px;
+    }
+  .jobcontent table, th, td { text-align: center;
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+  .jobcontent img {
+    width: 100px;
+    margin-top: -25px;
+    float: left;
+}
+  .jobcontent h3{  text-align: left;
+    padding-left: 4%;
+    font-size: 20px;
+    background-color: #C0C0C0;
+   color: white;
+}
+.comment-box {
+    width: 300px;
+    margin: auto;
+  }
+  
+  #comment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comment-item {
+    margin-bottom: 10px;
+  }
+  
+  .comment-item strong {
+    font-weight: bold;
+  }
+  
+  #comment-form {
+    margin-top: 10px;
+  }
+  
+  #comment-input {
+    width: 100%;
+    resize: none;
+    padding: 5px;
+  }
+  
+  button {
+    margin-top: 5px;
+  }
