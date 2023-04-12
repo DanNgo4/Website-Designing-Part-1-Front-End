@@ -26,16 +26,21 @@
     <div class="BodyContent">
 
 <main>
-
+<!--merge the page with header eliminating the gap -->
+<!--h3{text-align: center ; color: aqua; background-color: blue; font-weight: bold; font-size: 2em;}-->
   <h3>Apply With Us!</h3>
     </main>
 
     <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+        <!--fieldset{background-color: lightgrey;}-->
 	<fieldset>
+        <!--legend{font-family: serif ;color:black; font-size: 1.5em;}
+-->
         <legend>Personal details</legend>
 	<p><label for="Firstname"> First Name</label> 
         <input type="text" name="Name[]" id="Firstname" Maxlength="20" pattern="[a-zA-Z]{1,20}" required="required">
 	</p>
+    <!--ensure proper gap between labels-->
 	<p><label for="Middlename">Middle Name*</label> 
         <input type="text" name="Name[]" id="Middlename" pattern="[a-zA-Z]{1,20}">
     </p>
