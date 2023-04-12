@@ -1,5 +1,5 @@
 /* last modified by Dan 12/04/23*/
-/* Dan renamed some class, id and remodify this file to make it look more simple 12/04 */
+/* Dan renamed some classes, ids and remodify this file to make it look more simple 12/04 */
 
 * {
     font-family: calabri, sans-serif
@@ -12,20 +12,20 @@
 
 #content {
     position: absolute; 
-    bottom: 70%;      
+    bottom: 50%;      
     right: 10%;
     background: rgba(105, 195, 223, 0.8); 
     color: rgb(0, 0, 0);
-    padding: 20px;
+    padding: 20px; 
 }
 
-article {
-    margin: 0 ; 
+.title {
     padding: 45px; 
     background-color: rgb(83, 160, 231); 
+    text-align: center;
 }
 
-section {
+p.describe {
     width: 35%;
     margin-left: auto;
     margin-right: auto;
