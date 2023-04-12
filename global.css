@@ -46,7 +46,7 @@ footer {
   padding-right: 5%;
 }
 
-footer a{
+footer a {
   color: white;
 }
 
@@ -69,4 +69,14 @@ table {
   margin-right: auto;
 }
 
+/* Dan put these footer's rules from about.css */
+.follow {
+  bottom: -20px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.follow a {
+  text-decoration: none;
+}
 
