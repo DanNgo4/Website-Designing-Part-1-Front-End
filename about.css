@@ -1,34 +1,31 @@
 /* last modified by Dan 12/04/23*/
+
 * {
     font-family: calabri, sans-serif
 }
 
-.container {
+.intro {
     position: relative; 
-    color: black;
     margin: 0 auto;
 }
 
-.container img {vertical-align: middle;}
-
-.content {
+#content {
     position: absolute; 
     bottom: 70%;      
     right: 10%;
 }
 
-.container .content {
+.intro #content {
     background: rgb(0, 0, 0); 
     background: rgba(105, 195, 223, 0.8); 
     color: rgb(0, 0, 0);
     padding: 20px;
 }
 
-.article {
-    margin: 0; 
+article {
+    margin: 0 ; 
     padding: 45px; 
     background-color: rgb(83, 160, 231); 
-    text-align: center;
 }
 
 section {
@@ -39,11 +36,7 @@ section {
     font-size: large;
 }
 
-.group h1 {
-    text-align: center;
-}
-
-.group figure {
+article, .group h1, .group figure, dt, dd, #contact {
     text-align: center;
 }
 
@@ -51,18 +44,12 @@ dl {
     border: 15px solid #548ecf;
   }
 
-dt {
-    text-align: center;
-}
-
 dd {
-    text-align: center;
     margin-right: 4%;
-    text-decoration: none;
 }
 
-.id {
-    text-align: center;
+#contact { 
+    margin-right: 1%;
 }
 
 table.about, th, td {
@@ -76,11 +63,6 @@ table.about, th, td {
 
 .day {
     background-color: rgb(247, 193, 93);
-}
-
-#contact{
-    text-align: center;
-    margin-right: 1%;
 }
 
 .container2 {
