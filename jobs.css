@@ -71,7 +71,10 @@
 .comment-box button[type="submit"]:hover {
   background-color: #4267B2;
 }
-
+.pdffile embed { width="500";
+   height="375";
+   text-align: center;
+}
 
 
 
