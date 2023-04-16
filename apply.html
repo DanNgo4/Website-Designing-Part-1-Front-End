@@ -34,8 +34,8 @@
         <!--fieldset{background-color: lightgrey;}-->
         <fieldset>
             <!--Job reference with a text area max inputs 5 alphanumeric characters-->
-            <p><label for="Job Reference Number">Job Reference Number</label>
-                <input type="text" name="Job Reference Number" id="Job Reference Number" maxlength="5" pattern="^[a-zA-Z0-9]{1,5}" required="required"></p>
+            <p><label for="JRN">Job Reference Number</label>
+                <input type="text" name="Job Reference Number" id="JRN" maxlength="5" pattern="^[a-zA-Z0-9]{1,5}" required="required"></p>
         </fieldset>
 	<fieldset>
         <!--legend{font-family: serif ;color:black; font-size: 1.5em;}
@@ -52,9 +52,7 @@
         <input type="text" name="Name[]" id="Lastname" maxlength="20" pattern="[A-Za-z]{1,20}" required="required">
         </p>
         <p><label for="dob">DOB</label>
-            <input type="text" name="DOB" id="dob" maxlength="11" pattern="\d{1,2}\/\d{1,2}\/\d{4}" placeholder="DD/MM/YYYY">
-            <label for="Age"> Age</label>
-            <input type="text" name="Age" id="Age" maxlength="3" pattern="\d{1,3}" required="required"></p>
+            <input type="date" name="DOB" id="dob" >
             <p><label for="street">Steet Address</label>
             <input type="text" name="address[]" id="street" maxlength="40" pattern="^[a-zA-Z0-9]{1,40}+$" required="required">
             <label for="suburb">Suburb/Town</label>
@@ -73,7 +71,7 @@
                 <option value="ACT">ACT</option>
             </select>
             <label for="post">Post Code</label>
-            <input type="text" name="address[]" id="post" maxlength="4" pattern="\d{4}" required=""required>
+            <input type="text" name="address[]" id="post" maxlength="4" pattern="\d{4}" required="required">
             </p></fieldset>
             <fieldset>
                 <!--Gender with radio inputs-->
@@ -141,9 +139,9 @@
                         <input type="checkbox" value="OS" name="Skills[]" id="OS" Checked="checked">
                         </p>
 
-                           <p><label for="Other Skills">Other Skills</label>
-                             <textarea id="Skills" name="Description of Other Skills" rows="4" cols="40" placeholder="Mention your skills here"></textarea></p>
-                    </p>
+                           <p><label for="OTS">Other Skills</label>
+                             <textarea id="OTS" name="Description of Other Skills" rows="4" cols="40" placeholder="Mention your skills here"></textarea></p>
+                    
                     </fieldset>
                     <fieldset>
                         <legend>Reference</legend>
@@ -159,7 +157,7 @@
 	        <input type= "reset" value="Reset Form">
         </form>
     </div>
-    </div>
+    
 
     <footer><!-- Dan remodifed the footer 12/04-->
         <p>SOE Company</p>
