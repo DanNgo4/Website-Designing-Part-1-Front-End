@@ -89,8 +89,8 @@ td.c26 {
   color: black;
 }
 
-table.pfp {
-  border: none;
+.pfp td {
+  border: hidden;
 }
 
 .button {
