@@ -41,17 +41,24 @@ article, .group h1, .group figure, #contact, .profile {
 
 dl {
   border: 15px solid #548ecf;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
-}
-
-dt dd{
-  float: left;
   width: 50%;
   padding: 0;
   margin: 0;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+dd {
+  float: left;
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  margin-left: 5%;
+}
+
+dt {
+  text-align: center;
 }
 
 table.about, th, td {
@@ -116,7 +123,7 @@ td.c26 {
   margin-right: auto;
 }
         /* adding the picture motion effect */
-        #conatiner{
+        .conatiner{
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
           background-color: rgb(254, 254, 254);
@@ -125,6 +132,7 @@ td.c26 {
           padding: 5px;
           border: 2px solid rgb(248, 244, 243);
           text-align: center;
+          border: 15px solid #548ecf;
 
       }
       #section01 , #section02 ,#section03 ,#section04 ,#section05{
@@ -232,16 +240,6 @@ td.c26 {
         background-color: hsl(200, 50% , 80%);
         color: blue;
     }
-
-
-
-
-
-
-
-
-
-
 
 /* for header  */
 .NavgationBar ul {
