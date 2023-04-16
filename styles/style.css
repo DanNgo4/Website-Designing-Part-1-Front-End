@@ -31,16 +31,23 @@ p.describe {
   font-size: large;
 }
 
-article, .group h1, .group figure, dt, dd, #contact, .profile {
+article, .group h1, .group figure, #contact, .profile {
   text-align: center;
 }
 
 dl {
   border: 15px solid #548ecf;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
 }
 
-dd {
-  margin-right: 4%;
+dt dd{
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0;
 }
 
 #contact {
@@ -82,6 +89,10 @@ td.c26 {
   color: black;
 }
 
+table.pfp {
+  border: none;
+}
+
 .button {
   border: 4px solid #467fc0;
   padding: 16px 32px;
@@ -118,7 +129,6 @@ td.c26 {
       }
       #section01 , #section02 ,#section03 ,#section04 ,#section05{
       background-color: rgb(242, 242, 255);
-      flo
       }
 
       .profiledp01{
@@ -128,7 +138,7 @@ td.c26 {
           aspect-ratio:4/3;
 
       }
-      section{
+      section {
           width: 50%;
           height: 50%;
           margin: 0.5em;
