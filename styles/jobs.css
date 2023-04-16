@@ -11,7 +11,7 @@
     border-collapse: collapse;
 }
   .jobcontent img {
-    width: 100px;
+    width: 10px;
     margin-top: -25px;
     float: left;
 }
@@ -75,5 +75,8 @@
 
 
 
-
+.skills-section{
+  width: 100%;
+  height: auto;
+}
 
