@@ -35,6 +35,10 @@ article, .group h1, .group figure, #contact, .profile {
   text-align: center;
 }
 
+.group5 img{
+  border: 10px solid black;
+}
+
 dl {
   border: 15px solid #548ecf;
   width: 100%;
@@ -48,10 +52,6 @@ dt dd{
   width: 50%;
   padding: 0;
   margin: 0;
-}
-
-#contact {
-  margin-right: 1%;
 }
 
 table.about, th, td {
