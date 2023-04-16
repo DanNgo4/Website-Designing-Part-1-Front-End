@@ -6,22 +6,22 @@
   <meta name="keywords" content="HTML, Form, tags">
   <meta name="author" content="A Lecturer">
   <title>JOB APPLICATION FORM</title>
-  <link href="global.css" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="SOE_logo_transparent_Small.png"><!-- Dan added this favicon 12/04-->
+  <link href="styles/style.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="images/soe_logo_transparent_small.png"><!-- Dan added this favicon 12/04-->
 </head>
 <body>
-    <div class="NavgationBar">
-        <ul>
-          <li><img src="images/SOE_logo_transparent_Small.png" alt="Logo"></li><!-- make it link to the home page when clicked -->
-          <li><a href="index.html">Home</a></li>
-          <li><a href="apply.html">Apply</a></li>
-          <li><a href="jobs.html">Jobs</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="enhancements.html">Enhancements</a></li>
-          <li><a href="profiles.html">Profiles</a></li>
-        </ul>
-      </div>
-
+  <div class="NavgationBar">
+    <ul>
+      <li><img src="images/SOE_logo_transparent_Small.png" alt="Logo"></li><!-- make it link to the home page when clicked -->
+      <li><a href="index.html">Home</a></li>
+      <li><a href="apply.html">Apply</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="enhancements.html">Enhancements</a></li>
+      <li><a href="about.html#MeetOurTeam">Profiles</a></li>
+      <li><a href="mailto:104586973@student.swin.edu.au">Contact us</a></li>
+    </ul>
+  </div>
     <div class="BodyContent">
 
 <main>
@@ -32,6 +32,11 @@
 
     <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
         <!--fieldset{background-color: lightgrey;}-->
+        <fieldset>
+            <!--Job reference with a text area max inputs 5 alphanumeric characters-->
+            <p><label for="JRN">Job Reference Number</label>
+                <input type="text" name="Job Reference Number" id="JRN" maxlength="5" pattern="^[a-zA-Z0-9]{1,5}" required="required"></p>
+        </fieldset>
 	<fieldset>
         <!--legend{font-family: serif ;color:black; font-size: 1.5em;}
 -->
@@ -47,15 +52,14 @@
         <input type="text" name="Name[]" id="Lastname" maxlength="20" pattern="[A-Za-z]{1,20}" required="required">
         </p>
         <p><label for="dob">DOB</label>
-            <input type="text" name="DOB" id="dob" maxlength="11" pattern="\d{1,2}\/\d{1,2}\/\d{4}" placeholder="DD/MM/YYYY">
-            <label for="Age"> Age</label>
-            <input type="text" name="Age" id="Age" maxlength="3" pattern="\d{1,3}" required="required"></p>
+            <input type="date" name="DOB" id="dob" >
             <p><label for="street">Steet Address</label>
             <input type="text" name="address[]" id="street" maxlength="40" pattern="^[a-zA-Z0-9]{1,40}+$" required="required">
             <label for="suburb">Suburb/Town</label>
             <input type="text" name="address[]" id="suburb" maxlength="40" pattern="^[a-zA-Z0-9]{1,40}+$" required="required">
+            <!--States in drop down-->
             <label for="State">State</label>
-            <select name="State" id="State">
+            <select name="address[]" id="State">
                 <option selected="selected">Please Select</option>
                 <option value="VIC">VIC</option>
                 <option value="NSW">NSW</option>
@@ -67,9 +71,10 @@
                 <option value="ACT">ACT</option>
             </select>
             <label for="post">Post Code</label>
-            <input type="text" name="address[]" id="post" maxlength="4" pattern="\d{4}" required=""required>
+            <input type="text" name="address[]" id="post" maxlength="4" pattern="\d{4}" required="required">
             </p></fieldset>
             <fieldset>
+                <!--Gender with radio inputs-->
                 <legend>Gender</legend>
                 <p><label for="Female">Female</label> 
 			<input type="radio" value="Female" name="gender" id="Female" required="required">
@@ -112,16 +117,31 @@
                      <p><label for="Experience">Experience</label>
                         <select name="Experience" id="Experience">
                         <option selected="selected">Please Select</option>
-                        <option value="less">Less Than 1 Year</option>
+                        <option value="less than 1 year">Less Than 1 Year</option>
                         <option value="1-2">1-2 Years</option>
                         <option value="2-5">2-5 Years</option>
-                        <option value="5">5+ Years</option>
+                        <option value="5+">5+ Years</option>
                     </select></p>
                     <p><label for="Licence">Licence*</label>
                         <input type="text" name="Licence" id="Licence" placeholder="If Any" pattern="^[a-zA-Z0-9]{1,40}+$"></p>
-                        <p><label for="Skills">Skills</label>
-                            <textarea id="Skills" name="Skills" rows="4" cols="40" placeholder="Mention your skills here" required="required"></textarea>
-                    </p>
+                        <p>Skills</p>
+                        <p><label for="OOP">Object Oriented programming</label>
+                            <input type="checkbox" value="OOP" name="Skills[]" id="OOP" > 
+                        <label for="APIs">APIs</label>
+                        <input type="checkbox" value="APIs" name="Skills[]" id="APIs">
+                        <label for="AWS">AWS</label>
+                        <input type="checkbox" value="AWS" name="Skills[]" id="AWS">
+                        <label for="Java">Java</label>
+                        <input type="checkbox" value="Java" name="Skills[]" id="Java">
+                        <label for="Python">Python</label>
+                        <input type="checkbox" value="Python" name="Skills[]" id="Python">
+                        <label for="OS">Other Skills</label>
+                        <input type="checkbox" value="OS" name="Skills[]" id="OS" Checked="checked">
+                        </p>
+
+                           <p><label for="OTS">Other Skills</label>
+                             <textarea id="OTS" name="Description of Other Skills" rows="4" cols="40" placeholder="Mention your skills here"></textarea></p>
+                    
                     </fieldset>
                     <fieldset>
                         <legend>Reference</legend>
@@ -129,18 +149,15 @@
                             <input type="text" name="Name" id="Name" pattern="^[a-zA-Z]+$"></p>
                             <p><label for="Number">Contact Number*</label>
                             <input type="text" name="Number" id="Number" pattern="[\d\s]{8,12}">
-                            <p>Are we allowed ro contact the refree?*</p>
-                            <p><label for="Yes">Yes</label>
-                                <input type="radio" value="Yes" name="Yes" id="Yes">
-                                <label for="No">No</label>
-                                <input type="radio" value="No" name="No" id="No"></p>
-                        </p>
-                    </fieldset>
+
+                            
+                             </fieldset>
+                             
             <input type= "submit" value="Apply">
 	        <input type= "reset" value="Reset Form">
         </form>
     </div>
-    </div>
+    
 
     <footer><!-- Dan remodifed the footer 12/04-->
         <p>SOE Company</p>
@@ -157,10 +174,10 @@
         <p id="footerlinks">
             <a href="mailto:Contactus@SOECompany.com">Contact us</a>
             <br>
-            <a href="">Terms and Conditions</a>
+            <a href="termsandconditions.html">Terms and Conditions</a>
             <br>
-            <a href="">Contributors</a>
-        </p>
+            <a href="about.html#MeetOurTeam">Contributors</a>
+          </p>
     
         <div>
       <p class="follow">

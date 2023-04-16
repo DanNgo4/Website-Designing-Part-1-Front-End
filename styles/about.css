@@ -12,8 +12,8 @@
 
 #content {
     position: absolute; 
-    bottom: 50%;      
-    right: 10%;
+    bottom: 35%;      
+    right: 5%;
     background: rgba(105, 195, 223, 0.8); 
     color: rgb(0, 0, 0);
     padding: 20px; 
@@ -59,24 +59,24 @@ table.about, th, td {
 }
 
 .day {
-    background-color: rgb(247, 193, 93);
+    background-color: #F7C15D;
 }
 
-/* Dan put these table's background color from HTML to CSS file*/
+/* Dan changed table's background color to hexadecimal value 16/04*/
 td.c04 {
-    background-color: rgb(57, 167, 152);
+    background-color: #39A798;
 }
 
 td.c09 {
-    background-color: rgb(140, 176, 252);
+    background-color: #8CB0FC;
 }
 
 td.c25 {
-    background-color: rgb(230, 52, 206); 
+    background-color: #E634CE; 
 }
 
 td.c26 {
-    background-color: rgb(197, 180, 81);;
+    background-color: #C5B451;
 }
 
 .profile {
