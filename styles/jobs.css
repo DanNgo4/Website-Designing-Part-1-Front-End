@@ -24,13 +24,13 @@
   #applybutton {
     display: block;
     padding-left: 7%;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     background-color: #4267B2;
     color: #fff;
     text-align: center;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: transform 0.2s ease-in-out;
 }
 
