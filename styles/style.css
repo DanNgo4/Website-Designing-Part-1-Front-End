@@ -12,6 +12,10 @@
   text-align: left;
 }
 
+#terms {
+  text-align: left;
+}
+
 #content {
   position: absolute;
   bottom: 35%;
