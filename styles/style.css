@@ -1,3 +1,9 @@
+/* Author: Jugraj Singh
+Student id :- 104204262
+for the devops
+*/
+
+
 /* for the about page */
 * {
   font-family: calabri, sans-serif
@@ -456,87 +462,47 @@ table {
 }
 /* index page  */
 
-/* trying a hover effect for the ASisde visiblity  */
 
-h1 {
-  text-align: right;
-  visibility:visible
-}
-
-h1:hover{
-  text-overflow: ellipsis;
-  visibility: visible;
-
-}
-
-#container_grid{
-  border-radius: 0.2em;
-  background-color: #8CB0FC;
-  display: grid;
-  width: auto;
-  height: 275px;
-  transition: 300ms;
-  /* grid-template-columns: last element is showing tag; */
-  grid-template-columns: var(--grid01,60px) 40px;
-  grid-template-columns: var(--grid02,700px) 60px;
-  grid-template-columns: var(--grid03,48px) 90px;
-  padding: 10px;
-}
-#container_grid:has(#grid01:hover){
-  grid-template-columns: 60% 30px  ;
-}
-#container_grid:has(#grid02:hover){
-  grid-template-columns: 10% 70% ;
-
-}
-#container_grid:has(#grid03:hover){
-  grid-template-columns: 60% 60%;
-
-}
-
-#grid01:has(aside:hover){
-  transition: 200ms;
-  visibility: visible;
-
-}
-
-#grid01{
-  border-radius: 2em;
-  grid-column-start: 1;
-  grid-template-columns: 30% auto;
-  background-color: rgb(30, 99, 173);
-  padding: 3px;
-  margin: 3px;
-
-
-}
-#grid02{
-  border-radius: 2em;
-  grid-column-start: 2;
-  grid-template-columns: 100px;
-  background-color: rgb(30, 99, 173);
-  padding: 3px;
-  margin: 3px;
-
-}
-#grid03{
-  border-radius: 2em;
-  grid-column-start: 3;
-  grid-template-columns: 100px;
-  background-color: rgb(30, 99, 173);
-  padding: 3px;
-  margin: 3px;
-}
-
-#motionpictures{
-  border-radius: 2em;
-  width:100%;
-  margin: 30px;
-  padding: 0.9em;
-}
 
 
 .heading-index{
   text-align: center;
   color: rgb(51, 27, 27);
+  background-color: orange ;
 }
+
+
+#applybutton{
+  margin: 20px;
+  border: 4px solid #467fc0;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  object-position: center;
+  transition-duration: 0.8s;
+}
+
+
+#applybutton:hover {
+  background-color: #467fc0;
+  color: white;
+}
+
+
+
+
+.jobsheading{
+  width: 100%;
+  text-align: center;
+  border: 2px solid cornflowerblue;
+  border-color: #073468;
+  border-radius: 2em;
+}
+.jobsheading , h2{
+  background-color: #073468;
+  color: white;
+}
+
