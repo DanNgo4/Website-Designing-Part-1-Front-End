@@ -506,3 +506,89 @@ table {
   color: white;
 }
 
+.jobcontent h1{text-align: center;
+  font-size: 45px;
+  }
+.jobcontent h2{ text-align: center;
+  background-color: #4267B2;
+  color: white;
+  font-size: 30px;
+  }
+.jobcontent h3{  text-align: left;
+  padding-left: 4%;
+  font-size: 20px;
+  background-color: #C0C0C0;
+ color: white;
+}
+.jobcontent h4{ text-align: left;
+font-size:15px;
+}
+.jobcontent table, th, td { text-align: center;
+  border: 3px solid black;
+  border-collapse: collapse;
+}
+.jobcontent img {
+  width: 10px;
+  margin-top: -25px;
+  float: left;
+}
+
+#applybutton {
+  display: block;
+  padding-left: 7%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #4267B2;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#applybutton:hover {
+  transform: scale(1.1);
+}
+
+.comment-box {
+max-width: 400px;
+padding: 30px;
+border-radius: 10px;
+}
+
+.comment-box form {
+display: grid;
+gap: 10px;
+}
+
+.comment-box input[type="text"],
+.comment-box textarea {
+padding: 10px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.comment-box button[type="submit"] {
+font-size: 18px;
+font-weight: bold;
+color: #fff;
+background-color: #4267B2;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.2s ease-in-out;
+}
+
+.comment-box button[type="submit"]:hover {
+background-color: #4267B2;
+}
+
+
+
+
+.skills-section{
+width: 100%;
+height: auto;
+}
+
