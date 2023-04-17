@@ -41,7 +41,7 @@ article, .group h1, .group figure, #contact, .profile {
 
 dl {
   border: 15px solid #548ecf;
-  width: 50%;
+  width: 70%;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -123,7 +123,7 @@ td.c26 {
   margin-right: auto;
 }
         /* adding the picture motion effect */
-        .conatiner{
+        .container {
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
           background-color: rgb(254, 254, 254);
