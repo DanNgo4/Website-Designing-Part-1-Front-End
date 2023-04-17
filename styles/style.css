@@ -276,7 +276,7 @@ td.c26 {
   background-color: #898F9C;
 }
 
-.BodyContent {
+.BodyContent1 {
   background-color: #D3D3D3;
   margin-left: 50px;
   margin-right: 50px;
@@ -530,7 +530,7 @@ h1:hover{
 
 #motionpictures{
   border-radius: 2em;
-  width:93%;
+  width:100%;
   margin: 30px;
   padding: 0.9em;
 }
