@@ -8,6 +8,10 @@
   margin: 0 auto;
 }
 
+.intro h1 {
+  text-align: left;
+}
+
 #content {
   position: absolute;
   bottom: 35%;
@@ -31,7 +35,7 @@ p.describe {
   font-size: large;
 }
 
-article, .group h1, .group figure, #contact, .profile {
+article, .group h1, .group figure, #contact, .profile, .title h1, .profile h1 {
   text-align: center;
 }
 
@@ -446,17 +450,15 @@ table {
   border-radius: 2em;
 
 }
-
-
 /* index page  */
 
 /* trying a hover effect for the ASisde visiblity  */
 
-h1{
+h1 {
   text-align: right;
   visibility:visible
-
 }
+
 h1:hover{
   text-overflow: ellipsis;
   visibility: visible;
