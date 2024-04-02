@@ -182,7 +182,6 @@ td.c26 {
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
         margin: 2em;
-
     }
 
 
@@ -193,8 +192,6 @@ td.c26 {
         border-radius: .40rem;
         box-shadow: 2px 3px 10px hsl(216, 15%, 13%);
         overflow: hidden;
-
-
 
     }
     .cardheader{
@@ -350,7 +347,7 @@ table {
   border-radius: 1em ;
 }
 
-#HiringBanner ,HiringBanner02{
+#HiringBanner , #HiringBanner02{
   width: 100%;
 }
 
@@ -462,15 +459,11 @@ table {
 }
 /* index page  */
 
-
-
-
 .heading-index{
   text-align: center;
   color: rgb(51, 27, 27);
   background-color: orange ;
 }
-
 
 #applybutton{
   margin: 20px;
@@ -485,14 +478,10 @@ table {
   transition-duration: 0.8s;
 }
 
-
 #applybutton:hover {
   background-color: #467fc0;
   color: white;
 }
-
-
-
 
 .jobsheading{
   width: 100%;
@@ -584,11 +573,7 @@ transition: background-color 0.2s ease-in-out;
 background-color: #4267B2;
 }
 
-
-
-
 .skills-section{
 width: 100%;
 height: auto;
 }
-
