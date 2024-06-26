@@ -1,5 +1,5 @@
 # Website-Desining-Part-1-Front-End
-University Project, First Year Semester 1
+## University Project, First Year Semester 1
 
 Demonstration video: https://www.youtube.com/watch?v=12a52hTU2do&ab_channel=DanhNg%C3%B4 
 
